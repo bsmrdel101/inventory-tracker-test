@@ -1,5 +1,6 @@
 
-describe('Starting app', () => {
-  test('App loads', () => {
+describe("Starting app", () => {
+  test("App loads", () => {
+    //
   });
 });

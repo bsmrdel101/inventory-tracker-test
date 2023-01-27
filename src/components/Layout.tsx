@@ -1,7 +1,13 @@
-import React from 'react';
-import Head from 'next/head';
+import React, { ReactNode } from "react";
+import Head from "next/head";
 
-export default function Layout({ title, children }) {
+
+interface Props {
+  title: string
+  children: ReactNode
+}
+
+export default function Layout({ title, children }: Props) {
   const titleName = `${title} | Next.js Starter!`;
 
   return (
