@@ -8,7 +8,7 @@ interface Props {
 }
 
 export default function Layout({ title, children }: Props) {
-  const titleName = `${title} | Next.js Starter!`;
+  const titleName = `${title} | Inventory Manager`;
 
   return (
     <div>

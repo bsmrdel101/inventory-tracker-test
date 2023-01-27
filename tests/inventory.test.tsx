@@ -16,11 +16,11 @@ describe("Inventory Actions", () => {
     expect(itemTitle?.innerHTML).toEqual(`${itemData.name}`);
   });
 
-  test("Add Item", () => {
-    //
+  test("Remove Item", () => {
+    // 
   });
 
-  test("Remove Item", () => {
+  test("Add Item", () => {
     //
   });
 });
