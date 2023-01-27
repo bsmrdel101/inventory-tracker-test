@@ -1,8 +1,11 @@
 @import "./settings/colors";
+@import "./components/home.scss";
+@import "./components/inventory.scss";
 
 html,
 body {
   background-color: var(--bg-0);
+  color: white;
   padding: 0;
   margin: 0;
   font-family:
