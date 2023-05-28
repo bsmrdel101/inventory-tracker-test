@@ -8,5 +8,5 @@ interface Props {
 }
 
 export default function Application({ Component, pageProps }: Props) {
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />; 
 }
